@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">vid40</string>
+
+    <string name="titulo">Bienvenido al ejemplo</string>
+    <string name="txt_btn_ingresar">Ingresar nombre</string>
+    <string name="txt_msj_bienvenido">Hola, Bienvenido</string>
+</resources>
