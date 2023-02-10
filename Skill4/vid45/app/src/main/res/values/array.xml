@@ -9,5 +9,6 @@
         <item>Viernes</item>
         <item>Sabado</item>
         <item>Domingo</item>
+        <item>aleatorio</item>
     </string-array>
 </resources>

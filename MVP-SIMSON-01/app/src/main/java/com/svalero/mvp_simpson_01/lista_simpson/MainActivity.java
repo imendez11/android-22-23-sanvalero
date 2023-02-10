@@ -12,5 +12,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Handler handler = new Handler();
+        // SetTimeOut - setInterval
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent screenChanger = new Intent(getBaseContext(),
+                        LstSimpsonActivity.class
+                );
+                startActivity(screenChanger);
+            }
+        }, 4000);
     }
 }
